@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart'; // HomePage'i başka bir dosyada oluşturacağız.
+import 'pages/home_page.dart'; // HomePage'i import ediyoruz
 
 void main() {
   runApp(MyApp());

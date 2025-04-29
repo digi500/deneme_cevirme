@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../widgets/custom_button.dart'; // CustomButton widget'ını import ediyoruz
 
 class LoginPage extends StatelessWidget {
   @override
@@ -16,11 +17,11 @@ class LoginPage extends StatelessWidget {
               decoration: InputDecoration(hintText: 'Şifre'),
             ),
             SizedBox(height: 20),
-            ElevatedButton(
+            CustomButton(
+              text: 'Giriş Yap',
               onPressed: () {
                 // Login işlemini burada yapabilirsin.
               },
-              child: Text('Giriş Yap'),
             ),
           ],
         ),

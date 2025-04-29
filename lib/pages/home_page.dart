@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'login_page.dart'; // Login sayfasını import ediyoruz.
+import 'login_page.dart'; // Login sayfasına yönlendirmek için
 
 class HomePage extends StatelessWidget {
   @override
